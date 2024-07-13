@@ -1,3 +1,72 @@
+Black Diamond's Pen Tester Utility Suite
+Black Diamond's Pen Tester Utility Suite is a comprehensive and versatile toolkit designed for cybersecurity professionals, ethical hackers, and penetration testers. This suite integrates multiple security analysis tools into a single, user-friendly graphical user interface (GUI) built with Python and PyQt5.
+
+## Features and Capabilities
+
+    
+    WHOIS Lookup: Retrieve detailed information about domain registration.
+    DNS Lookup: Perform DNS queries to gather information about domain name systems.
+    Port Scan: Scan for open ports and running services on the target domain.
+    Network Traffic Monitoring: Capture and analyze network traffic to and from the target domain.
+    Web Scraper: Extract and analyze content from web pages.
+    Metadata Extraction: Extract metadata from files to uncover hidden information.
+    Vulnerabilities Scan: Identify common vulnerabilities in web applications.
+    SQL Injection: Test for SQL injection vulnerabilities.
+    JavaScript Injection: Test for cross-site scripting (XSS) vulnerabilities.
+    Cookie Manipulation: Modify cookies to test for session handling vulnerabilities.
+    Blockchain and Geolocation
+    Blockchain Analysis: Analyze blockchain addresses and transactions.
+    Geolocation Mapping: Geolocate addresses and visualize them on a map.
+    Open Source Intelligence (OSINT)
+    OSINT Integration: Scrape forums and websites for valuable information.
+
+
+## Usage Guide
+
+*** Step 1: Select Your Target ***
+Begin by identifying the domain or IP address of your target. Enter this information in the respective fields of the WHOIS Lookup, DNS Lookup, and Port Scan tabs to gather basic information about the target.
+
+Step 2: OSINT
+Navigate to the OSINT Integration tab. Enter the URL of relevant forums or websites to scrape information. Use this data to gain insights into the target's digital footprint and potential vulnerabilities.
+
+Step 3: Vulnerability Analysis
+Move to the Vulnerabilities Scan tab. Enter the target's URL and perform a scan to identify common vulnerabilities. Use the SQL Injection and JavaScript Injection tabs to test for specific injection vulnerabilities.
+
+Step 4: Web Scraping and Metadata Extraction
+In the Web Scraper tab, enter the target's URL to extract and analyze web content. Use the Metadata Extraction tab to upload files and uncover hidden metadata that may contain valuable information.
+
+Step 5: Network Traffic Monitoring
+Use the Network Traffic tab to monitor and capture network traffic to and from the target. This can help identify suspicious activity and potential attack vectors.
+
+Step 6: Blockchain and Geolocation Analysis
+If applicable, use the Blockchain Analysis tab to investigate blockchain addresses and transactions associated with the target. Use the Geolocation Mapping tab to visualize physical addresses related to the target.
+
+Step 7: Reporting and Documentation
+Document your findings and generate reports for each step. This will help in providing a comprehensive overview of the target's security posture and potential vulnerabilities.
+
+Installation
+To install and run Black Diamond's Pen Tester Utility Suite, follow these steps:
+
+Clone the Repository:
+git clone https://github.com/Mcleese902/BlackDiamonds-PenTesters-Utility-Suite.git
+
+cd BlackDiamonds-PenTesters-Utility-Suite
+
+Install Dependencies:
+pip install -r requirements.txt
+
+Run the Application:
+python main.py
+
+
+*** Contribution ***
+Contributions are welcome! Please fork the repository and submit pull requests with detailed descriptions of your changes.
+
+License
+This project is licensed under the MIT License.
+
+
+
 ### UPDATE
 Black Diamond's Pen Tester Utility Suite is in the early stages of development, and we are actively working on improving and expanding its features. Our goal is to create a comprehensive and robust penetration testing toolkit that meets the needs of both novice and experienced cybersecurity professionals. Below are some major upgrades we plan to implement for each feature already included in the suite:
 
